@@ -1,0 +1,218 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+
+*{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #BAE8FA;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 999;
+    position: fixed;
+}
+
+.logo{
+    margin: 0px;
+    font-size: 2.2em;
+    color:#8D2B05 ;
+    display: inline-flex;
+    text-decoration:underline;
+    font-weight: 800;
+    padding: 10px;
+    padding-left: 50px;
+    letter-spacing: 1px;
+    transition: 1.5s ease;
+}
+
+.logo:hover{
+    color: rgb(255, 136, 92);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.header-info{
+    padding: 30px;
+    font-size: 1.3em;
+    transition: 1.1s ease;
+}
+
+
+.header-info a{
+    padding-right: 30px;
+    text-decoration: none;
+    color: #B81D6D;
+    font-weight: 600;
+    transition: 1.1s ease;
+    
+}
+
+.header-info a:hover{
+    color: rgb(47, 250, 1);
+    background-color: rgb(255, 11, 11);
+    padding: 10px;
+    border-radius: 100%;
+}
+
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    max-width: 100%;
+    min-height: 100vh;
+    background: url(img/bk33.jpg) ;
+
+    display: flex;
+    background-position: center;
+    background-attachment:fixed;
+    background-size: cover;
+    align-items: center;
+}
+
+.main .bashir{
+    justify-content: right;
+    background-attachment: fixed;
+    margin-left: 6em;
+    margin-top: 40px;
+    width: 600px;
+    height: 900px;
+    color: coral;
+    text-align: center;
+}
+
+.main .bashir:hover{
+    transform: scale(1.1);
+    transition: 1.8s ease;
+    cursor: pointer;
+    border-radius: 20%;
+    color: rgb(36, 234, 22);
+}
+
+.main-info{
+    padding-left: 0%;
+    color: antiquewhite;
+}
+
+.main-info h1{
+    padding-bottom: 15px;
+    font-size: 2.5em;
+}
+
+.main-info .main-text{
+    font-size: 1.3em;
+    color:coral ;
+    background-color: antiquewhite;
+    font-family:italic;
+    font-weight: 600;
+    display: flex;
+    padding: 10px;
+    text-align: left;
+    width: 550px;
+    border-radius: 5px;
+}
+
+
+.main-info .main-text:hover{
+    transform: scale(1.1);
+    transition: 1s ease-in;
+    background-color: rgb(191, 239, 142);
+    cursor: pointer;
+}
+
+
+.title{
+    color: blueviolet;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-top: -10px;
+    margin-bottom: 60px;
+}
+
+
+.services-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    background-color: rgb(215, 242, 255);
+    width: 21.25em;
+    height: 13em;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20%;
+    margin: 30px;
+}
+
+.card .service-icon{
+    font-size: 2.9em;
+    margin-bottom: 20px;
+}
+
+.card p{
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+.card p span{
+    font-size: 50%;
+    font-weight: 600;
+    
+}
+
+
+.card:hover{
+    background-color: cornflowerblue;
+    color: rgb(209, 255, 24);
+    transform: scale(1.1);
+    transition: 1.1s ease-in-out;
+    cursor: pointer;
+}
+
+
+
+.varjobb{
+    background-color: rgb(36, 54, 54);
+}
+
+.jobb-container img{
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    padding: 20px;
+}
+
+.location{
+    background-color: rgb(152, 144, 144);
+}
+
+.location-container p{
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family:fantasy;
+    letter-spacing: 2px;
+    margin: 20px;
+}
+
+.location-container p span{
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+
